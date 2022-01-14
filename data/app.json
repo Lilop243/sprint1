@@ -1,0 +1,118 @@
+{
+    "producto":[
+        {
+            "id":1,
+            "name":"Limon con semilla",
+            "dtc":"32",
+            "precio":26.82,
+            "antes":39.9,
+            "img":"img/4.jpg",
+            "desciption":"Limón con semilla, con el 32% de descuento pagando con nuestros medios de pago"
+        },
+
+        {
+            "id":2,
+            "name":"Tomate",
+            "dtc":"32",
+            "precio":21.79,
+            "antes":32.9,
+            "img":"img/3.jpg",
+            "desciption":"Limón con semilla, con el 32% de descuento pagando con nuestros medios de pago"
+        },
+
+        {
+            "id":3,
+            "name":"Aguacate Hass",
+            "dtc":"18",
+            "precio":56.8,
+            "antes":69.9,
+            "img":"img/2.jpg",
+            "desciption":"Limón con semilla, con el 32% de descuento pagando con nuestros medios de pago"
+        },
+
+        {
+            "id":4,
+            "name":"Napal limpio",
+            "dtc":"13",
+            "precio":25.8,
+            "antes":29.9,
+            "img":"img/5.jpg",
+            "desciption":"Limón con semilla, con el 32% de descuento pagando con nuestros medios de pago"
+        },
+
+
+
+        {
+            "id":5,
+            "name":"Tomate verde sin cascara",
+            "dtc":"8",
+            "precio":25.8,
+            "antes":24.9,
+            "img":"img/6.jpg",
+            "desciption":"Limón con semilla, con el 32% de descuento pagando con nuestros medios de pago"
+        }
+    ],
+
+    "producto2":[
+        {
+            "id":6,
+            "name":"Colgate",
+            "precio":25.9,
+            "img":"img/colgs.jpg",
+            "desciption":"Colgate Pasta dental Luminous White brilliant White"
+        },
+
+        {
+            "id":7,
+            "name":"Desodorante dove",
+            "precio":14.5,
+            "img":"img/deo.jpg",
+            "desciption":"Antimanchas Contiene 0% de alcohol. Ofrece 48 horas de protección."
+        },
+
+        {
+            "id":8,
+            "name":"Jabón protex",
+            "precio":13.6,
+            "img":"img/prote.jpg",
+            "desciption":"Disfruta de ese baño refrescante que te encanta con toda la protección que necesitas."
+        },
+
+        {
+            "id":9,
+            "name":"Shampoo",
+            "precio":18.3,
+            "img":"img/shampo.jpg ",
+            "desciption":"Shampoo Head & Shoulders Suave y Manejable 2en1 x700mL."
+        },
+
+        {
+            "id":10,
+            "name":"Cepillo de dientes",
+            "precio":7.0,
+            "img":"img/cepil.jpg",
+            "desciption":"Slim Soft alcanza con eficacia los espacios más reducidos de tu boca, sin dañar tus encías."
+        }
+    ],
+
+    "ubicacion":[
+
+        {
+            "id":1,
+            "ciudad":"Bogota"
+        },
+
+        {
+            "id":2,
+            "ciudad":"suba"
+        },
+        {
+            "id":3,
+            "ciudad":"bosa"
+        },
+        {
+            "id":4,
+            "ciudad":"usme"
+        }
+    ]
+}

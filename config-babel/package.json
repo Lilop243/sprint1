@@ -1,0 +1,23 @@
+{
+  "name": "config-babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "rimraf": "^3.0.2",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
