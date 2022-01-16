@@ -1,14 +1,14 @@
-const api = "http://localhost:3000/producto";
+const api = "https://young-atoll-72259.herokuapp.com/producto";
 const ubicacion = "http://localhost:3000/ubicacion/";
 const ubication = document.getElementById("ubication")
 const select = document.getElementById("select-ubi")
 const fragmet = document.createDocumentFragment()
 const btnUbicacion = document.getElementById("btnUbicacion");
-const apidos = "http://localhost:3000/producto2";
+const apidos = "https://young-atoll-72259.herokuapp.com/produc2";
 const productos = document.getElementById("productos");
 const productos2 = document.getElementById("productos2");
-const apiconsul = "http://localhost:3000/producto/"
-const apiconsuldos = "http://localhost:3000/producto2/"
+const apiconsul = "https://young-atoll-72259.herokuapp.com/producto/"
+const apiconsuldos = "https://young-atoll-72259.herokuapp.com/produc2/"
 let content1 = JSON.parse(localStorage.getItem('key')) || []
 let ubicacionlocal = JSON.parse(sessionStorage.getItem('ubica')) || ""
 
