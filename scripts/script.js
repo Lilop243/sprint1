@@ -4,11 +4,11 @@ const ubication = document.getElementById("ubication")
 const select = document.getElementById("select-ubi")
 const fragmet = document.createDocumentFragment()
 const btnUbicacion = document.getElementById("btnUbicacion");
-const apidos = "https://young-atoll-72259.herokuapp.com/produc2";
+const apidos = "https://young-atoll-72259.herokuapp.com/producto2";
 const productos = document.getElementById("productos");
 const productos2 = document.getElementById("productos2");
 const apiconsul = "https://young-atoll-72259.herokuapp.com/producto/"
-const apiconsuldos = "https://young-atoll-72259.herokuapp.com/produc2/"
+const apiconsuldos = "https://young-atoll-72259.herokuapp.com/producto2/"
 let content1 = JSON.parse(localStorage.getItem('key')) || []
 let ubicacionlocal = JSON.parse(sessionStorage.getItem('ubica')) || ""
 
