@@ -1,5 +1,5 @@
 const api = "https://young-atoll-72259.herokuapp.com/producto";
-const ubicacion = "http://localhost:3000/ubicacion/";
+const ubicacion = "https://young-atoll-72259.herokuapp.com/ubicacion/";
 const ubication = document.getElementById("ubication")
 const select = document.getElementById("select-ubi")
 const fragmet = document.createDocumentFragment()
