@@ -58,7 +58,6 @@ compra.addEventListener("click", (e) => {
     
     Swal.fire({
         title: 'Gracias por tu compra',
-        imageUrl: 'https://res.cloudinary.com/ddgyxfetd/image/upload/v1642380208/Sprint%201/Hands_Buying_xmchlh.png',
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: 'Custom image',
