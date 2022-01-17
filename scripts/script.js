@@ -154,6 +154,25 @@ const btnn = async (idbtnn) => {
 
      content1.unshift(arreglo2)
      localStorage.setItem("key",JSON.stringify(content1))
+
+     const Toast = Swal.mixin({
+        toast: true,
+        position: 'top-end',
+        showConfirmButton: false,
+        timer: 1500,
+        timerProgressBar: true,
+        didOpen: (toast) => {
+            toast.addEventListener('mouseenter', Swal.stopTimer)
+            toast.addEventListener('mouseleave', Swal.resumeTimer)
+        }
+    })
+
+    Toast.fire({
+        icon: 'success',
+        title: 'Producto añadido al carrito',
+        color: '#fff',
+        background: '#0AC763'
+    })
 }
 
 
@@ -179,5 +198,23 @@ const btn = async (idbtn) => {
 
      content1.unshift(arreglo)
      localStorage.setItem("key",JSON.stringify(content1))
+     const Toast = Swal.mixin({
+        toast: true,
+        position: 'top-end',
+        showConfirmButton: false,
+        timer: 1500,
+        timerProgressBar: true,
+        didOpen: (toast) => {
+            toast.addEventListener('mouseenter', Swal.stopTimer)
+            toast.addEventListener('mouseleave', Swal.resumeTimer)
+        }
+    })
+
+    Toast.fire({
+        icon: 'success',
+        title: 'Producto añadido al carrito',
+        color: '#fff',
+        background: '#0AC763'
+    })
 }
 

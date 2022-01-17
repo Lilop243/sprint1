@@ -53,7 +53,21 @@ const btn = (idP) => {
     window.location.reload()
 }
 
-compra.addEventListener("click", () => {
-    alert("gracias por su compra")
+compra.addEventListener("click", (e) => {
+    e.preventDefault()
+    
+    Swal.fire({
+        title: 'Gracias por tu compra',
+        imageUrl: 'https://res.cloudinary.com/ddgyxfetd/image/upload/v1642380208/Sprint%201/Hands_Buying_xmchlh.png',
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+        confirmButtonColor: '#0AC763',
+        confirmButtonText: 'Seguir comprando'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            window.location.href = "index.html"
+        }
+    })
     localStorage.removeItem("key")
 })
